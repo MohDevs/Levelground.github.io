@@ -1,0 +1,379 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+  
+  
+  /******************************************
+  /* HEADER
+  /*******************************************/
+
+  header{
+    background: #01193497;
+    color: white;
+    padding: 1rem;
+  }
+
+
+  header h1, header p, header video, header h5{
+    text-align: center;
+  }
+
+  header h1{
+    font-size: 3rem;
+  }
+
+  header p{
+    font-size: 1.4rem;
+  }
+
+  .span-header{
+   text-align: center;
+  }
+
+  header nav img{
+    width: 4%
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .First-ul{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+  }
+
+
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  nav ul li{
+    list-style: none;
+  }
+
+  nav ul li a:hover{
+    color: red;
+}
+  
+    form input{
+    padding: 5px;
+    border-radius: 5px;
+    justify-items: flex-end;
+    margin-right: 1rem;
+    color:  #01193497;
+    border: none;
+  }
+
+input:hover{
+    color: red;
+    cursor: pointer;
+}
+
+  .video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .heading-2{
+    padding-top: 5rem;
+  }
+
+  header p{
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+  }
+
+  header h5{
+    padding-top: 2.5rem;
+    color: black;
+  }
+
+  .img-1{
+    padding-bottom: 1rem;
+  }
+
+  .src-img h5{
+    color: white;
+  }
+
+  .heading-3, .heading-4{
+    margin-top: 1.5rem;
+  }
+
+  .child-section1 p, .child-section2 p{
+    margin-top: 1.5rem;
+  }
+
+  /******************************************
+  MAIN
+  /*******************************************/
+  
+  
+  .main-section section{
+    float: left;
+    width: 50%;
+    background: rgb(203, 203, 203);
+    padding: 10rem;
+    margin-bottom: 15rem;
+    margin-top: -14rem;
+  }
+
+ .heading-1, .parag-1, .main-div1 p, .main-div1 h1{
+    text-align: center;
+  }
+
+
+  .heading-1{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .parag-1{
+    margin-bottom: 20rem;
+  }
+
+
+  .main-div1 {
+    margin-bottom: 12rem;
+  }
+
+  .main-div1 h1{
+    padding-bottom: 1.5rem;
+  }
+
+  .main-div1 p{
+    padding-bottom: 2.5rem;
+  }
+
+
+ .volunteer-1{
+  margin-left: 46%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: 1px solid gray;
+  padding: 0.7rem;
+  background: #01193497;
+  color: #fff;
+  }
+
+  .box-1, .box-2{
+    border: 1px solid #01193497;
+    background: #01193497;
+    padding: 30%;
+    margin-right: 2rem;
+  }
+
+  .heading-3{
+    margin-left: 23%;
+  }
+
+  .heading-4{
+    margin-left: 23%;
+  }
+
+  .anchortag-1{
+    text-decoration: none;
+    color: black;
+    margin-left: 32%;
+    border: 1px solid black;
+    padding: 0.7rem;
+    background: #01193497;
+    color: #fff;
+  }
+
+  .child-section2 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 34%;
+    border: 1px solid black;
+    padding: 0.7rem;
+    background: #01193497;
+    color: #fff;
+  }
+
+  .child-section1 p, .child-section2 p{
+    padding-bottom: 2rem;
+  }
+  
+  /******************************************
+ FOOTER
+  /*******************************************/
+
+  footer{
+    background: #1e1e25;
+    color: white;
+    padding: 2rem;
+  }
+
+  footer .flex-3{
+    border-top: 1px solid rgb(162, 160, 160);
+  }
+
+  .child-section3 span{
+    display: block;
+  }
+
+  .gray-1, .gray-2{
+    color: gray;
+  }
+
+  .gray-1{
+    margin-top: 1rem;
+  }
+
+  .hire-us{
+    margin-bottom: 1rem;
+  }
+
+  .parent-section1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-1, .flex-2{
+    display: flex;
+    gap: 1rem
+  }
+
+  .flex-2{
+    margin-bottom: 2rem;
+  }
+
+  .flex-3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+
+  .child-section4 h5{
+    padding-bottom: 1rem;
+  }
+
+  .child-section4 span{
+    color: gray;
+    display: block;
+  }
+
+  .child-section4 .org{
+    color: white
+  }
+
+
+  @media all and (max-width: 1200px){
+    .main-section{
+      display: none;
+    }
+
+    .volunteer-1{
+      display: block;
+      margin: auto;
+      width: 12%;
+      border-radius: 0.3rem;
+    }
+
+  
+
+  }
+
+
+  @media all and (max-width: 500px) {
+    .main-section{
+      display: none;
+    }
+
+    .volunteer-1{
+      display: block;
+      margin: auto;
+     
+      border-radius: 0.3rem;
+    }
+
+    .LG-logo{
+      display: none;
+    }
+  
+  }
+
+
+  @media all and (max-width: 800px) {
+    .main-section{
+      display: none;
+    }
+
+    .volunteer-1{
+      display: block;
+      margin: auto;
+      width: 15%;
+      border-radius: 0.3rem;
+    }
+
+    .LG-logo{
+      display: none;
+    }
+  
+  }
+
+
+  @media all and (max-width: 700px) {
+    .main-section{
+      display: none;
+    }
+
+    .volunteer-1{
+      display: block;
+      margin: auto;
+      width: 18%;
+      border-radius: 0.3rem;
+    }
+
+    .LG-logo{
+      display: none;
+    }
+  
+  }
+
+
+
+  @media all and (max-width: 600px) {
+    .main-section{
+      display: none;
+    }
+
+    .volunteer-1{
+      display: block;
+      margin: auto;
+      width: 23%;
+      border-radius: 0.3rem;
+    }
+
+    .LG-logo{
+      display: none;
+    }
+  
+  }
